@@ -10,7 +10,7 @@ A Python-based face detection and recognition system built using computer vision
 * 🧑 Face Recognition and identification
 * 📸 Works with images and video streams
 * ⚡ Fast and efficient processing
-* 🧠 قابل للتطوير وإضافة مميزات تانية بسهولة
+* 🧠 Easily extendable with additional features
 
 ---
 
@@ -26,14 +26,11 @@ A Python-based face detection and recognition system built using computer vision
 
 ## 📂 Project Structure
 
-```
 face-recognition-project/
 │
 ├── encode_recognize_faces.ipynb   # Main notebook
 ├── dataset/                       # Folder for known faces (if used)
-├── outputs/                       # Results (optional)
 └── README.md
-```
 
 ---
 
@@ -41,82 +38,75 @@ face-recognition-project/
 
 1. Clone the repository:
 
-```bash
-git clone https://github.com/your-username/face-recognition-project.git
-cd face-recognition-project
-```
+git clone https://github.com/your-username/face-recognition-project.git  
+cd face-recognition-project  
 
 2. Install dependencies:
 
-```bash
-pip install opencv-python face_recognition numpy
-```
+pip install opencv-python face_recognition numpy  
 
 ---
 
 ## ▶️ How to Run
 
-* Open the notebook:
+* Open Jupyter Notebook:
 
-```bash
-jupyter notebook
-```
+jupyter notebook  
 
 * Run the file:
 
-```
-encode_recognize_faces.ipynb
-```
+encode_recognize_faces.ipynb  
 
-* تأكد إنك ضايف صور الأشخاص اللي عايز النظام يتعرف عليهم داخل المشروع
+* Make sure to add images of the people you want the system to recognize inside the project directory
 
 ---
 
 ## 🧪 How It Works
 
-1. Load known faces and encode them
-2. Detect faces in input image/video
-3. Compare detected faces with known encodings
-4. Display results with names
+1. Load known faces and encode them  
+2. Detect faces in input image/video  
+3. Compare detected faces with known encodings  
+4. Display results with names  
 
 ---
 
 ## 📸 Example Output
 
-* Detect face in image
-* Draw bounding box
-* Display name of recognized person
+* Detect face in image  
+* Draw bounding box  
+* Display name of recognized person  
 
 ---
 
 ## 📌 Future Improvements
 
-* دعم كاميرا لايف (Real-time recognition)
-* تحسين الدقة باستخدام Deep Learning models
-* إضافة GUI بسيط
-* دعم عدد أكبر من الأشخاص
+* Add real-time camera support  
+* Improve accuracy using deep learning models  
+* Build a simple GUI  
+* Support a larger number of people  
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome! Feel free to fork the repo and submit pull requests.
+Contributions are welcome! Feel free to fork the repository and submit pull requests.
 
 ---
 
 ## 📄 License
 
-This project is open-source and available under the MIT License.
+This project is for educational and demonstration purposes.
 
 ---
 
-## 👨‍💻 Author
+## 👨‍💻 Authors
 
-**Mohamed Ekramy**
-Computer Science Student | AI Enthusiast
+Khalil Yasser
+Tadrous William
+DiaaMohammed
 
 ---
 
 ## ⭐ Support
 
-If you like this project, don't forget to ⭐ the repository!
+If you like this project, don’t forget to ⭐ the repository!
