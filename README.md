@@ -1,6 +1,6 @@
 # 🧠 Face Recognition System
 
-A Python-based face detection and recognition system built using computer vision techniques. This project identifies and recognizes human faces from images or video streams efficiently.
+A Python-based face detection and recognition system built using computer vision techniques. This project identifies and recognizes human faces from images or video streams efficiently
 
 ---
 
